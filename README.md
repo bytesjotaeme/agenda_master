@@ -11,3 +11,6 @@ En el método render, cada contacto se representa como una tarjeta de presentaci
 Cada tarjeta de presentación muestra el nombre, apellido y teléfono del contacto, con un botón de "Eliminar" asociado.
 
 En resumen, el proyecto proporciona una manera interactiva de agregar y eliminar contactos de una agenda utilizando React y SweetAlert2 para una experiencia de usuario mejorada.
+
+
+![Captura de Pantalla](https://github.com/bytesjotaeme/agenda_master/blob/main/preview0011.JPG)
