@@ -1,4 +1,13 @@
-Constructor del componente: Define el estado inicial del componente, que incluye una lista de contactos predefinidos.
-Método agregarContacto: Abre un cuadro de diálogo modal utilizando SweetAlert2 para agregar un nuevo contacto. El modal contiene campos para ingresar el nombre, apellido y teléfono del contacto. Después de completar el formulario y hacer clic en "Guardar", el contacto se agrega a la lista de contactos existente.
-Método eliminarContacto: Permite eliminar un contacto de la lista de contactos. Cuando se hace clic en el botón "Eliminar" asociado a un contacto, se elimina de la lista.
-Renderizado de la interfaz de usuario: Renderiza la interfaz de usuario que muestra la lista de contactos. Cada contacto se muestra como una tarjeta con su nombre, apellido y teléfono. Además, se proporciona un botón "Eliminar" para cada contacto, que permite eliminar el contacto correspondiente de la lista.
+La lista de contactos está ingresada como una lista de objetos:
+En el estado del componente Formulario, la lista de contactos se define como una lista de objetos, donde cada objeto representa un contacto y tiene las propiedades id, nombre, apellido y teléfono.
+
+
+Los contactos tienen id, nombre, apellido y teléfono:
+Cada objeto en la lista de contactos tiene las propiedades necesarias: id, nombre, apellido y teléfono.
+
+
+Los contactos se muestran como una tarjeta de presentación:
+En el método render, cada contacto se representa como una tarjeta de presentación, utilizando componentes de Bootstrap para el diseño.
+Cada tarjeta de presentación muestra el nombre, apellido y teléfono del contacto, con un botón de "Eliminar" asociado.
+
+En resumen, el proyecto proporciona una manera interactiva de agregar y eliminar contactos de una agenda utilizando React y SweetAlert2 para una experiencia de usuario mejorada.
